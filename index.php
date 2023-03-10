@@ -21,14 +21,15 @@
     <!-- Title -->
     <title>User Input with PHP</title>
   </head>
-  <body>
+
+    <!--PHP code-->
     <?php echo "<h1>User Input in PHP</h1>" ?>
     <form action="./welcome.php" method="post" target="result">
-      <label for="first-name">First Name</label>
-      <input type="text" id="first-name" placeholder="Your Name" name="first-name">
+      <label for="street-name">Street Name:</label>
+      <input type="text" id="street-name" placeholder="Street Name" name="street-name">
       <br><br>
-      <label for="age">Age</label>
-      <input type="text" id="age" placeholder="Your Age" name="age">
+      <label for="street-number">Street Number:</label>
+      <input type="number" id="street-number" placeholder="Street Number" name="street-number">
       <br><br>
       <input type="submit" value="Enter">
       <br><br>

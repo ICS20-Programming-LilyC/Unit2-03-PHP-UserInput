@@ -1,1 +1,1 @@
-Your first name is <?php echo $_POST["first-name"]; ?> and your age is <?php echo $_POST["age"]; ?>.
+You live on <?php echo $_POST["street-name"]; ?> street and your street number is <?php echo $_POST["street-number"]; ?>.
